@@ -3,10 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IKitchenObjectParent
 {
     [SerializeField] float moveSpeed = 0.5f;
     [SerializeField] PlayerInput playerInput;
+    [SerializeField] private Transform holdPoint;
+
+    private KitchenObject kitchenObject;
     private Vector3 lastInteractDir;
     void OnEnable()
     {
@@ -27,9 +30,9 @@ public class Player : MonoBehaviour
         Debug.DrawRay(rayOrigin, lastInteractDir * interactDistance, Color.red);
         if (Physics.Raycast(rayOrigin, lastInteractDir, out RaycastHit hit, interactDistance))
         {
-            if (hit.transform.TryGetComponent<ClearCounter>(out var clearCounter))
+            if (hit.transform.TryGetComponent<BaseCounter>(out var baseCounter))
             {
-                clearCounter.Interact();
+                baseCounter.Interact(this);
             }
             else
             {
@@ -54,4 +57,24 @@ public class Player : MonoBehaviour
         }
     }
 
+   public Transform GetCounterTop()
+    {
+        return holdPoint;
+    }
+    public void SetKitchenObject(KitchenObject kitchenObject)
+    {
+        this.kitchenObject = kitchenObject;
+    }
+    public KitchenObject GetKitchenObject()
+    {
+        return kitchenObject;
+    }
+    public void ClearKitchenObject()
+    {
+        kitchenObject = null;
+    }
+    public bool HasKitchenObject()
+    {
+        return kitchenObject != null;
+    }
 }

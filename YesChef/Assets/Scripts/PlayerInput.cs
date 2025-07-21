@@ -11,6 +11,7 @@ public class PlayerInput : MonoBehaviour
     private void OnEnable()
     {
         playerInputSystem.Enable();
+        playerInputSystem.UI.Enable();
         playerInputSystem.Player.Interact.performed += OnPlayerPressE;
     }
 

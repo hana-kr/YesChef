@@ -12,4 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: KitchenObject
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObjSoList
-  kitchenObjSos: []
+  kitchenObjSos:
+  - prefab: {fileID: 8673667120836330196, guid: a76c99618de984752808bc6275c1379d, type: 3}
+    sprite: {fileID: 0}
+    objType: 2
+  - prefab: {fileID: 2131952506421668823, guid: a1b627dcf1d0b4e0a8a7532ddce276be, type: 3}
+    sprite: {fileID: 0}
+    objType: 0
+  - prefab: {fileID: 4021107496229818925, guid: 48d5c0c71d49545f5a3352dd95349ad4, type: 3}
+    sprite: {fileID: 0}
+    objType: 1
