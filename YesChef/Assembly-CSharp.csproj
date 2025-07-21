@@ -66,8 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets/PlayerInputSystem.cs" />
     <Compile Include="Assets/Scripts/PlayerInput.cs" />
+    <Compile Include="Assets/Scripts/KitchenObjSo.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/ClearCounter.cs" />
+    <Compile Include="Assets/Scripts/KitchenObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/License.txt" />

@@ -358,6 +358,8 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/PlayerInputSystem.cs"
 "Assets/Scripts/ClearCounter.cs"
+"Assets/Scripts/KitchenObject.cs"
+"Assets/Scripts/KitchenObjSo.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerInput.cs"
 -langversion:9.0

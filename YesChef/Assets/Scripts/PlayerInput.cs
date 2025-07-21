@@ -8,16 +8,24 @@ public class PlayerInput : MonoBehaviour
 {
     private PlayerInputSystem playerInputSystem;
     public event EventHandler OnPressE;
+    private void OnEnable()
+    {
+        playerInputSystem.Enable();
+        playerInputSystem.Player.Interact.performed += OnPlayerPressE;
+    }
+
+    private void OnDisable()
+    {
+        playerInputSystem.Disable();
+        playerInputSystem.Player.Interact.performed -= OnPlayerPressE;
+    }
     private void Awake()
     {
         playerInputSystem = new PlayerInputSystem();
-        playerInputSystem.Player.Enable();
-        playerInputSystem.Player.Interact.performed += OnPlayerPressE;
-
     }
     private void OnPlayerPressE(InputAction.CallbackContext context)
     {
-        OnPressE?.Invoke(this , EventArgs.Empty);
+        OnPressE?.Invoke(this, EventArgs.Empty);
     }
     public Vector2 GetMovmentVector()
     {
