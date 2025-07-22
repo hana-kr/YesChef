@@ -1,0 +1,2323 @@
+Unity Editor version:    2022.3.57f1 (9d8bd91adc0a)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        24576 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/physallia/Desktop/YesChef/YesChef
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55458
+Successfully changed project path to: /Users/physallia/Desktop/YesChef/YesChef
+/Users/physallia/Desktop/YesChef/YesChef
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8432148224]  Target information:
+
+Player connection [8432148224]  * "[IP] 192.168.1.78 [Port] 0 [Flags] 2 [Guid] 2980261551 [EditorId] 2980261551 [Version] 1048832 [Id] OSXEditor(0,physallias-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8432148224]  * "[IP] 240.0.0.2 [Port] 0 [Flags] 2 [Guid] 2980261551 [EditorId] 2980261551 [Version] 1048832 [Id] OSXEditor(0,physallias-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8432148224] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8432148224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.57f1 (9d8bd91adc0a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/physallia/Desktop/YesChef/YesChef/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56239
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.57f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000667 seconds.
+- Loaded All Assemblies, in  0.140 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 53 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.178 seconds
+Domain Reload Profiling: 318ms
+	BeginReloadAssembly (30ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (68ms)
+		LoadAssemblies (30ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (67ms)
+				TypeCache.ScanAssembly (61ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (178ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (47ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.275 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 602ms
+	BeginReloadAssembly (52ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4551 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (52.8 KB). Loaded Objects now: 5045.
+Memory consumption went from 177.0 MB to 176.9 MB.
+Total: 2.373333 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.044542 ms MarkObjects: 2.141542 ms  DeleteObjects: 0.064416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248175.112531 seconds.
+  path: Assets/Scripts/GameLoop
+  artifactKey: Guid(cc11f2cb9de6e4c6fa498cdd2eda3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameLoop using Guid(cc11f2cb9de6e4c6fa498cdd2eda3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '559135017e88524aa6f8284e3af89843') in 0.001206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x324693000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.263 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (75ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4525 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.7 KB). Loaded Objects now: 5050.
+Memory consumption went from 177.5 MB to 177.5 MB.
+Total: 1.936125 ms (FindLiveObjects: 0.117417 ms CreateObjectMapping: 0.046084 ms MarkObjects: 1.742875 ms  DeleteObjects: 0.029167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: cc99c5a3497c15ca7ede80f0a9d93723 -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x313bfb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.190 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.381 seconds
+Domain Reload Profiling: 571ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.6 KB). Loaded Objects now: 5054.
+Memory consumption went from 184.0 MB to 184.0 MB.
+Total: 1.792292 ms (FindLiveObjects: 0.107416 ms CreateObjectMapping: 0.042292 ms MarkObjects: 1.616000 ms  DeleteObjects: 0.026209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 567bfd36d072d74d7f8f08abf282e1df -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5857ecd988a4809b63ca20b22721f9ab -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x313bfb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 571ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (227ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5058.
+Memory consumption went from 190.1 MB to 190.1 MB.
+Total: 1.958792 ms (FindLiveObjects: 0.108375 ms CreateObjectMapping: 0.057792 ms MarkObjects: 1.763708 ms  DeleteObjects: 0.028500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 567bfd36d072d74d7f8f08abf282e1df -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 85682453c5230a9ac25e8c15ada9a59b -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e474b68fa96c9313350708f8a8ee058 -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.188 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.377 seconds
+Domain Reload Profiling: 566ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (225ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5062.
+Memory consumption went from 196.3 MB to 196.3 MB.
+Total: 1.874500 ms (FindLiveObjects: 0.112291 ms CreateObjectMapping: 0.043959 ms MarkObjects: 1.683667 ms  DeleteObjects: 0.033833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 567bfd36d072d74d7f8f08abf282e1df -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 85682453c5230a9ac25e8c15ada9a59b -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7e3728a2a1b6756c1f1608eaf87dcba0 -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 569ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.9 KB). Loaded Objects now: 5066.
+Memory consumption went from 202.5 MB to 202.5 MB.
+Total: 1.965917 ms (FindLiveObjects: 0.116875 ms CreateObjectMapping: 0.037167 ms MarkObjects: 1.785750 ms  DeleteObjects: 0.025833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 567bfd36d072d74d7f8f08abf282e1df -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 85682453c5230a9ac25e8c15ada9a59b -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2bd88f8b2495628a70a6ac2b1c73e2ad -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.375 seconds
+Domain Reload Profiling: 568ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (375ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5070.
+Memory consumption went from 208.7 MB to 208.7 MB.
+Total: 1.945000 ms (FindLiveObjects: 0.118583 ms CreateObjectMapping: 0.047167 ms MarkObjects: 1.752125 ms  DeleteObjects: 0.026750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 567bfd36d072d74d7f8f08abf282e1df -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RecipeUI.cs: 1af982abfe710a7c9a04a4ec9ce95e16 -> 9a0ff8361b752ce873395a12a5ce78f3
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 85682453c5230a9ac25e8c15ada9a59b -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 23e4074e8a1d9d8b561cd74ea38c1367 -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.192 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 579ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5074.
+Memory consumption went from 214.9 MB to 214.9 MB.
+Total: 2.001000 ms (FindLiveObjects: 0.120250 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.799625 ms  DeleteObjects: 0.028708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 567bfd36d072d74d7f8f08abf282e1df -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 8ff36cd557ea4b1ac2d6a3905d1d4683 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DeliveryManager.cs: 8a0db88d84417a9d3f25fcdcd69ec7df -> c5638aa142e7c3982d248385b6403b26
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RecipeUI.cs: 1af982abfe710a7c9a04a4ec9ce95e16 -> 9a0ff8361b752ce873395a12a5ce78f3
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 85682453c5230a9ac25e8c15ada9a59b -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d13388028a9b6d9095cb6a84f16b325b -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.191 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 574ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (225ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5078.
+Memory consumption went from 221.1 MB to 221.0 MB.
+Total: 1.937833 ms (FindLiveObjects: 0.120459 ms CreateObjectMapping: 0.041541 ms MarkObjects: 1.748834 ms  DeleteObjects: 0.026583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 2ba60c6d88a836aa48b93b43d9839c26 -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 04d5beb8a3e1b5a1a5353f924cf15977 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DeliveryManager.cs: 8a0db88d84417a9d3f25fcdcd69ec7df -> c5638aa142e7c3982d248385b6403b26
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RecipeUI.cs: 1af982abfe710a7c9a04a4ec9ce95e16 -> 9a0ff8361b752ce873395a12a5ce78f3
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 4bbe8af5f8c9b72ee88121440113f2f1 -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 44020f1809831165ae037396d4c0c844 -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.372 seconds
+Domain Reload Profiling: 564ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (216ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.7 KB). Loaded Objects now: 5082.
+Memory consumption went from 227.3 MB to 227.2 MB.
+Total: 1.931375 ms (FindLiveObjects: 0.107875 ms CreateObjectMapping: 0.054167 ms MarkObjects: 1.727416 ms  DeleteObjects: 0.041417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 2ba60c6d88a836aa48b93b43d9839c26 -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 04d5beb8a3e1b5a1a5353f924cf15977 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DeliveryManager.cs: 8a0db88d84417a9d3f25fcdcd69ec7df -> c5638aa142e7c3982d248385b6403b26
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RecipeUI.cs: 1af982abfe710a7c9a04a4ec9ce95e16 -> 9a0ff8361b752ce873395a12a5ce78f3
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 4bbe8af5f8c9b72ee88121440113f2f1 -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ff87b9a0e0d02a5d3961432c51edde5d -> 1c2437944d3bf5e59e10edff0cdd5edc
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 573ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (225ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5086.
+Memory consumption went from 233.4 MB to 233.4 MB.
+Total: 1.936125 ms (FindLiveObjects: 0.124542 ms CreateObjectMapping: 0.038250 ms MarkObjects: 1.747792 ms  DeleteObjects: 0.025167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 2ba60c6d88a836aa48b93b43d9839c26 -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 04d5beb8a3e1b5a1a5353f924cf15977 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DeliveryManager.cs: 8a0db88d84417a9d3f25fcdcd69ec7df -> c5638aa142e7c3982d248385b6403b26
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RecipeUI.cs: 1af982abfe710a7c9a04a4ec9ce95e16 -> 9a0ff8361b752ce873395a12a5ce78f3
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 4bbe8af5f8c9b72ee88121440113f2f1 -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9af19136c0270647f450b212b0adc82f -> 1c2437944d3bf5e59e10edff0cdd5edc
+  custom:scripting/monoscript/fileName/ChopProgressBar.cs: 84f57a2b19ac037960d55b5f9f22d912 -> 231b153a21cab90e5ff5b29fd1719d23
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16dad7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.190 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 582ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (31.8 KB). Loaded Objects now: 5090.
+Memory consumption went from 239.6 MB to 239.6 MB.
+Total: 2.050791 ms (FindLiveObjects: 0.122291 ms CreateObjectMapping: 0.041625 ms MarkObjects: 1.858042 ms  DeleteObjects: 0.028375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/FinishMenu.cs: 2ba60c6d88a836aa48b93b43d9839c26 -> 545fa1c05a25cc3958bfcf37da835fab
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GameLoop.cs: 04d5beb8a3e1b5a1a5353f924cf15977 -> 7a1eb0684b62778b09702b1e18feb2bd
+  custom:scripting/monoscript/fileName/ChooseItemFridge.cs: ddce0dcd30ec6e489d353f5dc86eca78 -> b7e4e9800d82985f79e64b84d4fcf11e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OrderMaker.cs: a34b8c8c4b4daf4541e366bf036721ce -> 5f947bdcb04fe6e50607201e407df433
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DeliveryManager.cs: 8a0db88d84417a9d3f25fcdcd69ec7df -> c5638aa142e7c3982d248385b6403b26
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RecipeUI.cs: 1af982abfe710a7c9a04a4ec9ce95e16 -> 9a0ff8361b752ce873395a12a5ce78f3
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/StartScreen.cs: 4bbe8af5f8c9b72ee88121440113f2f1 -> 7308df64e81f74a28480bedbf76c3d66
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OrderUI.cs: cb6440c8d3b3ed9c4a9f0e44f5e7f53a -> 9444d6c8866172ce5cb6d066dc057809
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c49b4301f2d43adf7660ddadd0b8e55e -> 1c2437944d3bf5e59e10edff0cdd5edc
+  custom:scripting/monoscript/fileName/ChopProgressBar.cs: 84f57a2b19ac037960d55b5f9f22d912 -> 231b153a21cab90e5ff5b29fd1719d23
+========================================================================
+Received Import Request.
+  Time since last request: 100.377692 seconds.
+  path: Assets/Art/Extra Clean UI/TurqoiseWave2.png
+  artifactKey: Guid(b39f705074720425c9c855033066153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Extra Clean UI/TurqoiseWave2.png using Guid(b39f705074720425c9c855033066153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6def1a774729fca3472904c6d4760349') in 0.047049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.819960 seconds.
+  path: Assets/Art/Extra Clean UI/Demo/Demo3.png
+  artifactKey: Guid(33dd9871eafa84422add833000de52ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Extra Clean UI/Demo/Demo3.png using Guid(33dd9871eafa84422add833000de52ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38aa5380a8c36e44706c82d38aee7846') in 0.011536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.618326 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_steak.fbx
+  artifactKey: Guid(5b2d6d4ca43384008800aee3d24ec6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_steak.fbx using Guid(5b2d6d4ca43384008800aee3d24ec6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fe1167842ef89a5192704ab4070c321') in 0.040970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/floor_kitchen_small.fbx
+  artifactKey: Guid(3ecb8f41abd87433ba9674cc07bff430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/floor_kitchen_small.fbx using Guid(3ecb8f41abd87433ba9674cc07bff430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1d9ad8313b19478460a20cf8e0762407') in 0.007307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/cuttingboard.fbx
+  artifactKey: Guid(cf95a0e6e4d7649c4845508a93d6db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/cuttingboard.fbx using Guid(cf95a0e6e4d7649c4845508a93d6db85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af95b8a1882675c6c5e769af0bc8b6fa') in 0.006950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_burger_cooked.fbx
+  artifactKey: Guid(0398c72d9082d42ba9e0edfd8d832fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_burger_cooked.fbx using Guid(0398c72d9082d42ba9e0edfd8d832fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be62c577891f3ddbdcd61b518f577b63') in 0.007435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_burger_trash.fbx
+  artifactKey: Guid(6a972a072c0794aaa8f4f23ac99c5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_burger_trash.fbx using Guid(6a972a072c0794aaa8f4f23ac99c5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f3ab430ac9d178e42e431e83b77bf27') in 0.006474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/dishrack_plates.fbx
+  artifactKey: Guid(b8b974815000342ce9289ff74a4dfcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/dishrack_plates.fbx using Guid(b8b974815000342ce9289ff74a4dfcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5924e18c3e46bd82fd84b8dc914165c4') in 0.006497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_lettuce.fbx
+  artifactKey: Guid(6efff01f7c6884b44ad3406af412e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_lettuce.fbx using Guid(6efff01f7c6884b44ad3406af412e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '795a1599a5e1973b4b9e2afc1be5e59f') in 0.006351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_burger.fbx
+  artifactKey: Guid(6b807d5aa38ad423b8355a5e8e7b50fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_burger.fbx using Guid(6b807d5aa38ad423b8355a5e8e7b50fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bf3969fae4d5354eee89b7c1c1eab8e') in 0.006704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_lettuce_chopped.fbx
+  artifactKey: Guid(f722b39504f2d4b509657ec5e211d7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_lettuce_chopped.fbx using Guid(f722b39504f2d4b509657ec5e211d7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '966049bd4d046efcc550b1d4ccb9a3ca') in 0.005927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_ham_trash.fbx
+  artifactKey: Guid(fbe5bf06b93624f429f8f5ab47ee6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_ham_trash.fbx using Guid(fbe5bf06b93624f429f8f5ab47ee6275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc36c7a64196fd9531749e56e8462b9f') in 0.006863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.909804 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_onion_rings.fbx
+  artifactKey: Guid(d96080f591b5e430b90ef1af8637c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_onion_rings.fbx using Guid(d96080f591b5e430b90ef1af8637c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49ce5abf0a51587bf44e64f7acd8d343') in 0.014402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_tomato_slice.fbx
+  artifactKey: Guid(009879b0c2f4142e6baba80445514dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_tomato_slice.fbx using Guid(009879b0c2f4142e6baba80445514dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4256810ce3f63e9a1e831e9c13b3355d') in 0.008636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.037664 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/fridge_A_decorated.fbx
+  artifactKey: Guid(eadbea6dd3f9d4843ad67df1990e9374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/fridge_A_decorated.fbx using Guid(eadbea6dd3f9d4843ad67df1990e9374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e79e77cb88139a0c78d4ea3a2f068f8') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_A_small.fbx
+  artifactKey: Guid(ebe6a10a8a81a4736815903983aae7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_A_small.fbx using Guid(ebe6a10a8a81a4736815903983aae7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5c9cd97e203fd962a5afe165f9c4022') in 0.007682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.148393 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_C_large.fbx
+  artifactKey: Guid(9010f8387a4f849e7a68a18d8969fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_C_large.fbx using Guid(9010f8387a4f849e7a68a18d8969fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2662b0fbe2c5c34508eb41db621d1f9d') in 0.008326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencabinet_corner.fbx
+  artifactKey: Guid(9dc5bf4d8baff4797a66e3a18977bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencabinet_corner.fbx using Guid(9dc5bf4d8baff4797a66e3a18977bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24c06c03cbe07bd770d40bb19b8d7156') in 0.007462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_C_small.fbx
+  artifactKey: Guid(eea55eaa8026947069e7dc36c66b1e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_C_small.fbx using Guid(eea55eaa8026947069e7dc36c66b1e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96d9bf6da620e0b3884dbc10a0553816') in 0.010106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_D_medium.fbx
+  artifactKey: Guid(1ccb7192da6964df98b66b935a3d25e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/jar_D_medium.fbx using Guid(1ccb7192da6964df98b66b935a3d25e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '817aaf2d9e1fd433178301c449abfa8c') in 0.007184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.105485 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_innercorner.fbx
+  artifactKey: Guid(20e27e89af8f143e3bd31cabfb91133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_innercorner.fbx using Guid(20e27e89af8f143e3bd31cabfb91133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5db3f5ca3a7c07f57d07b3ee2a66da69') in 0.008217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_outercorner_backsplash.fbx
+  artifactKey: Guid(2adee14a514124f61a152a8d170747a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_outercorner_backsplash.fbx using Guid(2adee14a514124f61a152a8d170747a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '58f0bccbe4e05d854216d3b79fc4cbaf') in 0.007204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_sink.fbx
+  artifactKey: Guid(3d6521a9e533d477eb3f91966b4036a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_sink.fbx using Guid(3d6521a9e533d477eb3f91966b4036a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '541f1c240bbc8556d05dc20681eb74da') in 0.006752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_A_backsplash.fbx
+  artifactKey: Guid(5d384511c918f470989216bc2d7937ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_A_backsplash.fbx using Guid(5d384511c918f470989216bc2d7937ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3aca3dc0849d7c2ea8041fbef1f62c41') in 0.006887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.316061 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_decorated.fbx
+  artifactKey: Guid(15fc22e31a912477289a23761b730f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_decorated.fbx using Guid(15fc22e31a912477289a23761b730f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10f47109ad3b320acb319c28da8500d3') in 0.009332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.038814 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/lid_B.fbx
+  artifactKey: Guid(cf2273d16d8dd4cbb87cc3176d94bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/lid_B.fbx using Guid(cf2273d16d8dd4cbb87cc3176d94bf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b22752a794915ea36875090f32aecfb5') in 0.007275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/papertowel.fbx
+  artifactKey: Guid(0e29ed693f4ac454e9c35220bfe180ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/papertowel.fbx using Guid(0e29ed693f4ac454e9c35220bfe180ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8c87b0447c1488442e9bff0ee958754') in 0.008176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/mustard.fbx
+  artifactKey: Guid(cd9d9b28f7d2c4ebd8bd2800110267e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/mustard.fbx using Guid(cd9d9b28f7d2c4ebd8bd2800110267e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '523b30652608a7026d959e9d065ec699') in 0.007395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/menu.fbx
+  artifactKey: Guid(e8ea4705fd0584236926f67bca90143c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/menu.fbx using Guid(e8ea4705fd0584236926f67bca90143c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a76fb60f48a22e0986d28fce21770ef9') in 0.007136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002839 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/plate.fbx
+  artifactKey: Guid(bba9d4d8269d0469688a7c88c7a1dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/plate.fbx using Guid(bba9d4d8269d0469688a7c88c7a1dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd3ba34f6c8038d4ada73bfb17b0697e9') in 0.006648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/restaurantbits_texture.png
+  artifactKey: Guid(81240da2635fe42af9160bb5eccae6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/restaurantbits_texture.png using Guid(81240da2635fe42af9160bb5eccae6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dec30905a42da34d1f8d0143ec1f192f') in 0.002146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/plate_dirty.fbx
+  artifactKey: Guid(9a81b91061f354f9f9daf41dec7db613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/plate_dirty.fbx using Guid(9a81b91061f354f9f9daf41dec7db613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fdb1d3a44e46439b35603cf0246f6a82') in 0.006737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pot_A_stew.fbx
+  artifactKey: Guid(1955bd43123714df2a998034b795c528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pot_A_stew.fbx using Guid(1955bd43123714df2a998034b795c528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f083f82e87e49abfe9a4579542c0837') in 0.008084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.038724 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stew_bowl.fbx
+  artifactKey: Guid(af80d935eb50a412a928d845f9a3eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stew_bowl.fbx using Guid(af80d935eb50a412a928d845f9a3eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '694e647147673e7fc6dd0f963623e0f3') in 0.006022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stove_multi.fbx
+  artifactKey: Guid(0232ede437cf248a5a6381c20789d8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stove_multi.fbx using Guid(0232ede437cf248a5a6381c20789d8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '347d5d3771a2dbc92f64991ca77bef63') in 0.007344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stove_single_countertop.fbx
+  artifactKey: Guid(43260ca7a30d14022b1523add3bd4234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stove_single_countertop.fbx using Guid(43260ca7a30d14022b1523add3bd4234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af7bff7a8bfcab9085fceb996cb50395') in 0.007186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006345 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/wall_decorated.fbx
+  artifactKey: Guid(6b52fdfd6862a4fd6a6505cfd963cdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/wall_decorated.fbx using Guid(6b52fdfd6862a4fd6a6505cfd963cdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c2d266bd97d90fc1ae7648b8a5871b2') in 0.006893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/wall_half.fbx
+  artifactKey: Guid(e9b163e0fa3514852b83e5c874292fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/wall_half.fbx using Guid(e9b163e0fa3514852b83e5c874292fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '797c066e503d9dd487d52c4e79246ee1') in 0.006625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.286934 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/shelf_papertowel_decorated.fbx
+  artifactKey: Guid(57ffd43285c824f30b0fdc3dec1bf7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/shelf_papertowel_decorated.fbx using Guid(57ffd43285c824f30b0fdc3dec1bf7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd54247b33bfe70f451ebdb4d28da3284') in 0.015260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/stew_pot.fbx
+  artifactKey: Guid(7e821fb6cb9784d41b30c130802d8d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/stew_pot.fbx using Guid(7e821fb6cb9784d41b30c130802d8d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c61b51fbbff2c463f233bc6d0173a76b') in 0.008771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/wall_decorated.fbx
+  artifactKey: Guid(f1467f645df2444ac90cb5773e8bda76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/wall_decorated.fbx using Guid(f1467f645df2444ac90cb5773e8bda76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fc2aeaf52c9dd1fc2ba36105ba99fa5') in 0.008531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/wall_half.fbx
+  artifactKey: Guid(67e7d6414dc0c44218557172961ac298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/wall_half.fbx using Guid(67e7d6414dc0c44218557172961ac298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93fcffb246015b81a15fd33133c70a48') in 0.006455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/stove_multi_decorated.fbx
+  artifactKey: Guid(2e9130a352a804e28bde5770a552770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/stove_multi_decorated.fbx using Guid(2e9130a352a804e28bde5770a552770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0f0977419c1dda477ee219f520442bd') in 0.006447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/stove_multi.fbx
+  artifactKey: Guid(3c77171c7342b4d79b00c0b0150eab12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/stove_multi.fbx using Guid(3c77171c7342b4d79b00c0b0150eab12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01a0d967ed130a4f2cabaacf8a52dfdf') in 0.007220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.277458 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pillar_B.fbx
+  artifactKey: Guid(ef2fd10213ed741da935f50fdbf52089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pillar_B.fbx using Guid(ef2fd10213ed741da935f50fdbf52089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7f722e0b3ec5d6cc3f5e7492fdbaa24') in 0.014822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pot_B.fbx
+  artifactKey: Guid(ed585fde39de14e9b95edcd930b9d3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pot_B.fbx using Guid(ed585fde39de14e9b95edcd930b9d3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e129ef689e513bb2999e6724e41cb737') in 0.008526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/plate.fbx
+  artifactKey: Guid(962db4f6870504340821cd88f2ed1d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/plate.fbx using Guid(962db4f6870504340821cd88f2ed1d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed811406a82828f8caaaaf3b1713ed30') in 0.008312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pot_A.fbx
+  artifactKey: Guid(f3cb2f8b3fe88449493c114e5ea8e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pot_A.fbx using Guid(f3cb2f8b3fe88449493c114e5ea8e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c711ef137eb3a33e128bfb2bde7cd5f') in 0.009056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.310964 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/lid_B.fbx
+  artifactKey: Guid(cbe0a76bc147a44b3a483ec4a281d9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/lid_B.fbx using Guid(cbe0a76bc147a44b3a483ec4a281d9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc125538a39420c01364c7ae2dda262b') in 0.008179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/lid_large.fbx
+  artifactKey: Guid(64a22ca925cd7413ca0a6d8e66b17ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/lid_large.fbx using Guid(64a22ca925cd7413ca0a6d8e66b17ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '326f6f1e3d7d92136720cd0dbc03c9c1') in 0.008141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pan_A.fbx
+  artifactKey: Guid(e151d7155973e4d2f9108e15fe768d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pan_A.fbx using Guid(e151d7155973e4d2f9108e15fe768d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '48d911ecf810ed58fcc5d263327f8536') in 0.007982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pan_B.fbx
+  artifactKey: Guid(12f1c46673cb9463ab0525f666b56b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/pan_B.fbx using Guid(12f1c46673cb9463ab0525f666b56b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9b7aaace29783ed4e7df6ad976e6084') in 0.006286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.259126 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_straight_B_backsplash.fbx
+  artifactKey: Guid(9fc582bf43c0a466caf2933950853417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_straight_B_backsplash.fbx using Guid(9fc582bf43c0a466caf2933950853417) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b7a394462d277a266bfa1e8c747b7c8') in 0.007116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_straight_decorated.fbx
+  artifactKey: Guid(e6e5b52a718324c0ebee1b6b4eff2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_straight_decorated.fbx using Guid(e6e5b52a718324c0ebee1b6b4eff2463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53b0eb425aa9aa89fff5db90efab0b3b') in 0.008983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.187607 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencabinet_half.fbx
+  artifactKey: Guid(cd4faa62e07904c3683f86ccfe7dfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencabinet_half.fbx using Guid(cd4faa62e07904c3683f86ccfe7dfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4c915cb14ef1182ae198761d7b02ab9') in 0.008945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_innercorner.fbx
+  artifactKey: Guid(6c102ad7ee086478d8ad44a02ad09976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_innercorner.fbx using Guid(6c102ad7ee086478d8ad44a02ad09976) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06448404d555153c4e214f49a87bb992') in 0.008122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_sink_backsplash.fbx
+  artifactKey: Guid(47e11b57a5f394f749f06918bc56a2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/kitchencounter_sink_backsplash.fbx using Guid(47e11b57a5f394f749f06918bc56a2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9aa997739df7d6fb0573d25bb81c088e') in 0.009144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.665012 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_B_small.fbx
+  artifactKey: Guid(e02d09cccb72a44f7b316445a0404622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_B_small.fbx using Guid(e02d09cccb72a44f7b316445a0404622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c711262fc00a19292f8926bfc4910555') in 0.010784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_C_large.fbx
+  artifactKey: Guid(09c3bac8d162b42709659ebfc42a90a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_C_large.fbx using Guid(09c3bac8d162b42709659ebfc42a90a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '064de6804c89d94bd5c598ae289966e9') in 0.009130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_D_small.fbx
+  artifactKey: Guid(1427c39c5ff19424fa2f0956d8793e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_D_small.fbx using Guid(1427c39c5ff19424fa2f0956d8793e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '211fbfb75793eec1ba441a8231289696') in 0.008823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_C_small.fbx
+  artifactKey: Guid(100bd22c2b42f4622a2cee37f4f0c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_C_small.fbx using Guid(100bd22c2b42f4622a2cee37f4f0c179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb6ac029a576755d797addbb294d2667') in 0.007877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.077782 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/fridge_A.fbx
+  artifactKey: Guid(8ccb03cf2e8034af09208a573e1cfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/fridge_A.fbx using Guid(8ccb03cf2e8034af09208a573e1cfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f502227db8ec88fe706c48d5b981a5d') in 0.016947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_A_small.fbx
+  artifactKey: Guid(5f2ffc65bf5514361b5572c242020faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/jar_A_small.fbx using Guid(5f2ffc65bf5514361b5572c242020faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71c6f193d19e4c8603f0a2bfb2b75256') in 0.008772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.160214 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_onion_chopped.fbx
+  artifactKey: Guid(5dbd558a6a19d429abf32cd20a64c5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_onion_chopped.fbx using Guid(5dbd558a6a19d429abf32cd20a64c5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36f10c0f24c68f3cd57c72b63a730934') in 0.008366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_onion_rings.fbx
+  artifactKey: Guid(619f37c3e6daf4a40bc6e968f424dc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_onion_rings.fbx using Guid(619f37c3e6daf4a40bc6e968f424dc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd604807750b4bd574e0ac8bd3cb07644') in 0.008830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.187873 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_carrot_pieces.fbx
+  artifactKey: Guid(6025b1991e2d4429cbf03e0fa22c6067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_carrot_pieces.fbx using Guid(6025b1991e2d4429cbf03e0fa22c6067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a433901c6305e8be7477f5266fc205e3') in 0.008157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_lettuce.fbx
+  artifactKey: Guid(a0e16dfb175ee4610bc41a78721192d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_lettuce.fbx using Guid(a0e16dfb175ee4610bc41a78721192d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e3277d64d24edb9c5e994d51ce5a267') in 0.007092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_cheese.fbx
+  artifactKey: Guid(ac2fb7a227dd240209e96b3447ae9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_cheese.fbx using Guid(ac2fb7a227dd240209e96b3447ae9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59eddfa6e7e93e7e7387f88eb9b2f70c') in 0.008974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_ham_trash.fbx
+  artifactKey: Guid(b335e642417494d2e9119af5bee0d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_ham_trash.fbx using Guid(b335e642417494d2e9119af5bee0d65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68d9adbffdbcdca256a8ff69e6ad04cf') in 0.008388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.324665 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/floor_kitchen_small.fbx
+  artifactKey: Guid(584ecb3f9534541c4afe8ef8d5990093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/floor_kitchen_small.fbx using Guid(584ecb3f9534541c4afe8ef8d5990093) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b741de8a17ddb355183e4185b29faff') in 0.008872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_bun_bottom.fbx
+  artifactKey: Guid(389a84f57f8b04c858d148ab00ce8d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_bun_bottom.fbx using Guid(389a84f57f8b04c858d148ab00ce8d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bd6b66ca59dce41e8ca9d268aea84e0') in 0.009851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_bun.fbx
+  artifactKey: Guid(64464d0f56f064beabe2b7a1a5283fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/food_ingredient_bun.fbx using Guid(64464d0f56f064beabe2b7a1a5283fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc1f2abfb0103ae9c7b1650d2ab17e76') in 0.008127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.016117 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/crate_steak.fbx
+  artifactKey: Guid(304f23ccf73d14578816f219ebc24721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/crate_steak.fbx using Guid(304f23ccf73d14578816f219ebc24721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d14e57f9086888f0f0ba6f31f240612') in 0.006706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/door_B.fbx
+  artifactKey: Guid(709a3cd11d7d542e0b9c2155839b5be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/door_B.fbx using Guid(709a3cd11d7d542e0b9c2155839b5be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '893d03d78d5fcb263190754f65739edb') in 0.007057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/cuttingboard.fbx
+  artifactKey: Guid(f720e7dfdc2b542b795953ba0bc9cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx (unity)/cuttingboard.fbx using Guid(f720e7dfdc2b542b795953ba0bc9cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fbe46599ff22ba845f340489ed603bab') in 0.006726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.751296 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_tomatoes.obj
+  artifactKey: Guid(4cda4e7e685ac423ea3e26d5b84e3809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_tomatoes.obj using Guid(4cda4e7e685ac423ea3e26d5b84e3809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4657f8528446b8f4b404add1c7c1b5b4') in 0.016416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_bun.obj
+  artifactKey: Guid(ea6ab70a1bda141daa41a000d147ba33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_bun.obj using Guid(ea6ab70a1bda141daa41a000d147ba33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9feac544ec55385c0f85db2cd8ba6597') in 0.010544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/cuttingboard.obj
+  artifactKey: Guid(3662c96f4d5e64aaab213ca6bec3c732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/cuttingboard.obj using Guid(3662c96f4d5e64aaab213ca6bec3c732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09f93abb5019f79a879f2a0647737630') in 0.009773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/extractorhood.obj
+  artifactKey: Guid(7111ce28afdfc4554b4168401c1e651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/extractorhood.obj using Guid(7111ce28afdfc4554b4168401c1e651c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7aa52e2adb83499df5a6e5e7d156d6c0') in 0.010354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/dishrack_plates.obj
+  artifactKey: Guid(191e6facbace24a2c87487fe51fdb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/dishrack_plates.obj using Guid(191e6facbace24a2c87487fe51fdb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38a4f3f4004fc5c5da7b0763de8ab934') in 0.009172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/floor_kitchen_small.obj
+  artifactKey: Guid(16e278d861ea94e21b9e55df8d841750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/floor_kitchen_small.obj using Guid(16e278d861ea94e21b9e55df8d841750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ec862d520f5de974590baee5e732748') in 0.007803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.956441 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_carrot_pieces.obj
+  artifactKey: Guid(ca648b49a861c4989aeb995c21709b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_carrot_pieces.obj using Guid(ca648b49a861c4989aeb995c21709b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d635bc02c00e051b0f11666311312eb') in 0.012396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese_slice.obj
+  artifactKey: Guid(ac53d7b026a2541f7b5ad85ed68cd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese_slice.obj using Guid(ac53d7b026a2541f7b5ad85ed68cd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64025d46d73adc170d3f7f2163fa8bfb') in 0.011940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.240063 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_ham_trash.obj
+  artifactKey: Guid(1875cd46a4e364c7f8672957a6a03535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_ham_trash.obj using Guid(1875cd46a4e364c7f8672957a6a03535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f8d16ab4c802963351cde8463fdb3d4') in 0.010404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_lettuce.obj
+  artifactKey: Guid(0d2ae4ab73070429593bb2a13592ed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_lettuce.obj using Guid(0d2ae4ab73070429593bb2a13592ed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b8b2cb196f328d992be268cd60e03af') in 0.010143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.081392 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion_chopped.obj
+  artifactKey: Guid(f4c680443e1f44609af45fcee68fad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion_chopped.obj using Guid(f4c680443e1f44609af45fcee68fad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce839e5d7e4b9e5bd503b5c422659777') in 0.009218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion_rings.obj
+  artifactKey: Guid(a95146d8bd217414aa715a9da32b51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion_rings.obj using Guid(a95146d8bd217414aa715a9da32b51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04eaf78e8218c3149dae27099e6e5bd1') in 0.008075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.108699 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_tomato.obj
+  artifactKey: Guid(2363cede9aac643ebb29783934935a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_tomato.obj using Guid(2363cede9aac643ebb29783934935a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20ac9adff5ffdbfb6c4cd30c7c0daad8') in 0.009427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.768623 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A_decorated_door_top.obj
+  artifactKey: Guid(0ce4e6a8371324b408fc636573524d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A_decorated_door_top.obj using Guid(0ce4e6a8371324b408fc636573524d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9881f249ae8f6edac777da28594aeb4f') in 0.013586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.087007 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_A_large.obj
+  artifactKey: Guid(9d89bdf0a03c545a7a1c1d04562f8eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_A_large.obj using Guid(9d89bdf0a03c545a7a1c1d04562f8eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bec0f14b42c1c565b1aaec2e8331eb81') in 0.009491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_B_large.obj
+  artifactKey: Guid(55d50eef912fa4bb68689f7810503e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_B_large.obj using Guid(55d50eef912fa4bb68689f7810503e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c08e18de7e2750601cb234caa0001f49') in 0.009073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.154586 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_C_large.obj
+  artifactKey: Guid(20828115d816a49e4a7f8a075f53ce31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_C_large.obj using Guid(20828115d816a49e4a7f8a075f53ce31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '850d9e5b2cd917933ce143c79535d335') in 0.011154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.035658 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_D_small.obj
+  artifactKey: Guid(dcef9fe66cc9347ef80ae404c2d4bf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_D_small.obj using Guid(dcef9fe66cc9347ef80ae404c2d4bf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bdc238357ccf62bfbb2f2b238e8b7452') in 0.016662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencabinet_corner.obj
+  artifactKey: Guid(9d69f65abca0b484a8a002699444cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencabinet_corner.obj using Guid(9d69f65abca0b484a8a002699444cb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eab9af52d15818acde4b21f970429de1') in 0.011123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001002 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_innercorner.obj
+  artifactKey: Guid(f13145b3b7e1c495c9bda23739ae856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_innercorner.obj using Guid(f13145b3b7e1c495c9bda23739ae856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b33252cf8db4d6ae296aa5a897a7aedf') in 0.009581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_outercorner_backsplash.obj
+  artifactKey: Guid(9d188afe3057a4860af9bf55f39a795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_outercorner_backsplash.obj using Guid(9d188afe3057a4860af9bf55f39a795b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd53caf639c411a3c79b0abaf3748253') in 0.011368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003371 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A.obj
+  artifactKey: Guid(34d324af1bd9c4cf0a000684c94f5419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A.obj using Guid(34d324af1bd9c4cf0a000684c94f5419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9398e5132156475894d96c7bde28f15') in 0.008625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A_backsplash.obj
+  artifactKey: Guid(4721f8cf25e0c43e78d70fdb06935c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A_backsplash.obj using Guid(4721f8cf25e0c43e78d70fdb06935c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02af953083e3ccd3380a9769767c2f13') in 0.010524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001903 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_decorated.obj
+  artifactKey: Guid(ed87345ed46f8497589fa57257549283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_decorated.obj using Guid(ed87345ed46f8497589fa57257549283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9eae6a0665e52a7e1b328c4fd3a2683c') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.042196 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/lid_B.obj
+  artifactKey: Guid(3b4a29c5fcafd49d48d8fa1b1f4f0025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/lid_B.obj using Guid(3b4a29c5fcafd49d48d8fa1b1f4f0025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43f6d760bdf450ce97f60c1590b2fde1') in 0.009551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.014601 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/oven_door.obj
+  artifactKey: Guid(294e95869594842a387a0126c5bf81af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/oven_door.obj using Guid(294e95869594842a387a0126c5bf81af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '934d8b96a12e6da0e89676932cf229dc') in 0.008906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pan_006.obj
+  artifactKey: Guid(994cbade2792b450bbe96d5566130192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pan_006.obj using Guid(994cbade2792b450bbe96d5566130192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19770e3db1e397102074e07bf479d33c') in 0.009024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.021571 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_B.obj
+  artifactKey: Guid(998f96e938fe043299b8cfaa5f0aa9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_B.obj using Guid(998f96e938fe043299b8cfaa5f0aa9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ccae909199282a72b8d819209598005') in 0.007779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/plate_dirty.obj
+  artifactKey: Guid(0c609e5c5a27c479499deb928bfbb34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/plate_dirty.obj using Guid(0c609e5c5a27c479499deb928bfbb34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9cef9566d425ebf2279f41ea3e5cec85') in 0.008698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.024926 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_A_stew.obj
+  artifactKey: Guid(579fa9f81ef0941709ca9e744c004d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_A_stew.obj using Guid(579fa9f81ef0941709ca9e744c004d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3972c4ca4de39d181ae9a28eacda8881') in 0.008262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_B.obj
+  artifactKey: Guid(f0e7333747c2246c79e8ed090e6286c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pot_B.obj using Guid(f0e7333747c2246c79e8ed090e6286c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a16407906090032b1298fa8561573dc') in 0.008132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.033191 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/shelf_papertowel_decorated.obj
+  artifactKey: Guid(338eb2f64c0b149c78cd4eeb143b4ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/shelf_papertowel_decorated.obj using Guid(338eb2f64c0b149c78cd4eeb143b4ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ba8b8c198bd7159069736fa5c607b01') in 0.008120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stew_pot.obj
+  artifactKey: Guid(b7a9e1e65f81c4d588e5b0f2a6c13712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stew_pot.obj using Guid(b7a9e1e65f81c4d588e5b0f2a6c13712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2384955607041054d1d00ed14086008') in 0.007957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.057524 seconds.
+  path: Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stove_single.obj
+  artifactKey: Guid(5c14285d824324e6b83718a554840f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/stove_single.obj using Guid(5c14285d824324e6b83718a554840f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b210e52478be0ee26d5366e2c7f050d') in 0.009751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

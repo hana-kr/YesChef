@@ -64,32 +64,32 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Orders/RecipeUI.cs" />
     <Compile Include="Assets/PlayerInputSystem.cs" />
     <Compile Include="Assets/Scripts/SOScripts/ChoopedIngredientSOList.cs" />
-    <Compile Include="Assets/Scripts/RecipeUI.cs" />
+    <Compile Include="Assets/Scripts/UI/StartScreen.cs" />
     <Compile Include="Assets/Scripts/SOScripts/KitchenObjSoList.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/DeliveryCounter.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/StoveCounter.cs" />
-    <Compile Include="Assets/Scripts/OrderUI.cs" />
+    <Compile Include="Assets/Scripts/Orders/OrderUI.cs" />
     <Compile Include="Assets/Scripts/GameLoop.cs" />
     <Compile Include="Assets/Scripts/Player/Player.cs" />
-    <Compile Include="Assets/Scripts/StartScreen.cs" />
-    <Compile Include="Assets/Scripts/ChooseItemFridge.cs" />
-    <Compile Include="Assets/Scripts/OrderMaker.cs" />
+    <Compile Include="Assets/Scripts/Orders/DeliveryManager.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/ClearCounter.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/CuttingCounter.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/BaseCounter.cs" />
+    <Compile Include="Assets/Scripts/Orders/OrderMaker.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/Fridge.cs" />
     <Compile Include="Assets/Scripts/SOScripts/FryingObjectSOList.cs" />
-    <Compile Include="Assets/Scripts/ChopProgressBar.cs" />
+    <Compile Include="Assets/Scripts/UI/ChopProgressBar.cs" />
     <Compile Include="Assets/Scripts/IKitchenObjectParent.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerInput.cs" />
     <Compile Include="Assets/Scripts/SOScripts/RecipeSo.cs" />
     <Compile Include="Assets/Scripts/KitchenObject.cs" />
-    <Compile Include="Assets/Scripts/DeliveryManager.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/TrashCounter.cs" />
+    <Compile Include="Assets/Scripts/UI/ChooseItemFridge.cs" />
+    <Compile Include="Assets/Scripts/UI/FinishMenu.cs" />
     <Compile Include="Assets/disable.cs" />
-    <Compile Include="Assets/Scripts/FinishMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
