@@ -10,29 +10,42 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     [SerializeField] private Transform holdPoint;
 
     private KitchenObject kitchenObject;
+    private BaseCounter kitchenCounter;
     private Vector3 lastInteractDir;
     void OnEnable()
     {
         playerInput.OnPressE += DetectInteraction;
+        playerInput.OnPressF += DetectInteractAlter;
     }
 
     void Update()
     {
         Move();
+        DetectCounter();
 
     }
+    private void DetectInteractAlter(object sender, EventArgs e)
+    {
+         if (kitchenCounter != null)
+            kitchenCounter.InteractAlter(this);
+    }
+
 
     private void DetectInteraction(object sender, EventArgs e)
     {
-
-        float interactDistance = 2f;
+        if (kitchenCounter != null)
+            kitchenCounter.Interact(this);
+    }
+    private void DetectCounter()
+    {
+         float interactDistance = 2f;
         Vector3 rayOrigin = transform.position + Vector3.up * -0.2f;
         Debug.DrawRay(rayOrigin, lastInteractDir * interactDistance, Color.red);
         if (Physics.Raycast(rayOrigin, lastInteractDir, out RaycastHit hit, interactDistance))
         {
             if (hit.transform.TryGetComponent<BaseCounter>(out var baseCounter))
             {
-                baseCounter.Interact(this);
+                kitchenCounter = baseCounter;
             }
             else
             {

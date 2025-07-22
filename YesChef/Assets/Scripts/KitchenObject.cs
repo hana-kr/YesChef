@@ -5,17 +5,17 @@ using UnityEngine;
 public class KitchenObject : MonoBehaviour
 {
     [SerializeField] IngredientType ingredientType;
-    private IKitchenObjectParent iKitchenObjectparent;
+    private IKitchenObjectParent KitchenObjectparent;
 
 
     public IngredientType IngredientType => ingredientType;
     public void SetKitchenObjectParent(IKitchenObjectParent iKitchenObjectparent)
     {
-        if (this.iKitchenObjectparent != null)
+        if (this.KitchenObjectparent != null)
         {
-            this.iKitchenObjectparent.ClearKitchenObject();
+            this.KitchenObjectparent.ClearKitchenObject();
         }
-        this.iKitchenObjectparent = iKitchenObjectparent;
+        this.KitchenObjectparent = iKitchenObjectparent;
         iKitchenObjectparent.SetKitchenObject(this);
 
         transform.parent = iKitchenObjectparent.GetCounterTop();
@@ -23,7 +23,11 @@ public class KitchenObject : MonoBehaviour
     }
     public IKitchenObjectParent GetClearCounter()
     {
-        return iKitchenObjectparent;
-
+        return KitchenObjectparent;
+    }
+    public void DestroySelf()
+    {
+        KitchenObjectparent.ClearKitchenObject();
+        Destroy(gameObject);
     }
 }

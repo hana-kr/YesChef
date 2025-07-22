@@ -67,12 +67,14 @@
     <Compile Include="Assets/PlayerInputSystem.cs" />
     <Compile Include="Assets/Scripts/PlayerInput.cs" />
     <Compile Include="Assets/Scripts/ChooseItemFridge.cs" />
-    <Compile Include="Assets/Scripts/KitchenObjSo.cs" />
+    <Compile Include="Assets/Scripts/KitchenObjSoList.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/Scripts/ChoopedIngredientSOList.cs" />
     <Compile Include="Assets/Scripts/IKitchenObjectParent.cs" />
     <Compile Include="Assets/Scripts/ClearCounter.cs" />
     <Compile Include="Assets/Scripts/KitchenObject.cs" />
     <Compile Include="Assets/Scripts/BaseCounter.cs" />
+    <Compile Include="Assets/Scripts/CuttingCounter.cs" />
     <Compile Include="Assets/Scripts/Fridge.cs" />
   </ItemGroup>
   <ItemGroup>

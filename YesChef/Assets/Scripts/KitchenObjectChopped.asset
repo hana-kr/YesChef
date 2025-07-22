@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c8df6ee10094fcdbc2808c7a1e6115, type: 3}
+  m_Name: KitchenObjectChopped
+  m_EditorClassIdentifier: 
+  choppedIngredients:
+  - ingredientType: 2
+    ingredientChopped: {fileID: 5598724290484406144, guid: 2bb0fcd4c3e174e21aaaac6b7961e2d6, type: 3}

@@ -19,7 +19,7 @@ public class ClearCounter : BaseCounter
         {
             if (player.HasKitchenObject())
             {
-                player.GetKitchenObject().SetKitchenObjectParent(this);
+                Debug.Log("both slots full");
             }
             else
             {
