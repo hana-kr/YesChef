@@ -3,22 +3,27 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public enum GameState { StartMenu, Playing, FinalScreen }
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private StartScreen startScreen;
+    [SerializeField] private FinishMenu finishMenu;
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
     public GameState state = GameState.StartMenu;
 
     private float endTime;
     private int score;
+    private int highScore;
 
     void OnEnable()
     {
         startScreen.onStartClicked += StartGame;
+        finishMenu.onRestartClicked += ReloadGame;
+
         DeliveryManager.OrderScoreUpdate += HandleScoreUpdate;
     }
     private void OnDisable()
@@ -36,12 +41,23 @@ public class GameManager : MonoBehaviour
     {
         state = GameState.Playing;
         endTime = Time.time + 180f;
+        highScore = PlayerPrefs.GetInt("HighScore", 0);
+    }
+    private void ReloadGame(object sender, EventArgs e)
+    {
+        SceneManager.LoadScene("GameScene");
     }
 
     private void EndGame()
     {
         state = GameState.FinalScreen;
         timerText.text = "00:00";
+        if (score > highScore)
+    {
+        highScore = score;
+        PlayerPrefs.SetInt("HighScore", highScore);
+        PlayerPrefs.Save();
+    }
     }
 
 
@@ -64,6 +80,8 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.FinalScreen:
+                finishMenu.gameObject.SetActive(true);
+                finishMenu.Setup(score);
                 break;
         }
     }

@@ -396,6 +396,7 @@
 "Assets/Scripts/CountersScripts/StoveCounter.cs"
 "Assets/Scripts/CountersScripts/TrashCounter.cs"
 "Assets/Scripts/DeliveryManager.cs"
+"Assets/Scripts/FinishMenu.cs"
 "Assets/Scripts/GameLoop.cs"
 "Assets/Scripts/IKitchenObjectParent.cs"
 "Assets/Scripts/KitchenObject.cs"
