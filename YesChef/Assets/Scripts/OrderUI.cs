@@ -11,8 +11,7 @@ public class OrderUI : MonoBehaviour
     [SerializeField] private TMP_Text timerText;
     [SerializeField] private bool hideTimerWhenNoOrder = true;
 
-    private readonly List<GameObject> _spawnedIcons = new();
-    private Dictionary<RecipeType, Sprite> _spriteLookup;
+    private readonly List<GameObject> _spawnedRecipes = new();
 
     private void Awake()
     {
@@ -57,7 +56,7 @@ public class OrderUI : MonoBehaviour
         foreach (var recipe in order)
         {
             var go = Instantiate(ingredientIconPrefab, ingredientContainer);
-            _spawnedIcons.Add(go);
+            _spawnedRecipes.Add(go);
 
             var recipeUI = go.GetComponentInChildren<RecipeUI>();
             if (recipeUI != null )
@@ -69,12 +68,12 @@ public class OrderUI : MonoBehaviour
 
     private void ClearRecipe()
     {
-        foreach (var icon in _spawnedIcons)
+        foreach (var recipe in _spawnedRecipes)
         {
-            if (icon != null)
-                Destroy(icon);
+            if (recipe != null)
+                Destroy(recipe);
         }
-        _spawnedIcons.Clear();
+        _spawnedRecipes.Clear();
     }
 
 
