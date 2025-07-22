@@ -14,11 +14,12 @@ public class DeliveryManager : MonoBehaviour
     private List<RecipeSo> currentOrder;
     private Dictionary<IngredientType, RecipeType> mapping;
 
-    private int runningTotalScore = 0;
+    private int runningOrderScore = 0;
     private int orderIngredientScoreTotal = 0;
     private float orderStartTime;
 
     private Coroutine countdownRoutine;
+    public static event EventHandler<ScoreUpdatedEventArgs> OrderScoreUpdate;
 
     private void Awake()
     {
@@ -58,9 +59,9 @@ public class DeliveryManager : MonoBehaviour
         if (currentOrder.Count == 0)
         {
             int orderScore = CalculateScore();
-            runningTotalScore += orderScore;
             orderUI.ClearOrder();
-
+            orderUI.ShowScore(CalculateScore());
+            OrderScoreUpdate?.Invoke(this , new ScoreUpdatedEventArgs(runningOrderScore));
             StartCoroutine(RespawnOrderAfterDelay());
         }
 
@@ -82,7 +83,6 @@ public class DeliveryManager : MonoBehaviour
 
     private IEnumerator RespawnOrderAfterDelay()
     {
-        orderUI.ShowScore(orderIngredientScoreTotal);
         yield return new WaitForSeconds(respawnDelay);
         SpawnNewOrder();
     }
@@ -100,6 +100,8 @@ public class DeliveryManager : MonoBehaviour
     private int CalculateScore()
     {
         int elapsedSeconds = Mathf.FloorToInt(Time.time - orderStartTime);
-        return orderIngredientScoreTotal - elapsedSeconds;
+        runningOrderScore = orderIngredientScoreTotal - elapsedSeconds;
+
+        return runningOrderScore;
     }
 }

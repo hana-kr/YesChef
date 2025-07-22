@@ -408,6 +408,7 @@
 "Assets/Scripts/SOScripts/FryingObjectSOList.cs"
 "Assets/Scripts/SOScripts/KitchenObjSoList.cs"
 "Assets/Scripts/SOScripts/RecipeSo.cs"
+"Assets/Scripts/StartScreen.cs"
 -langversion:9.0
 /deterministic
 /optimize+

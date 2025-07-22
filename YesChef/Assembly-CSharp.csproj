@@ -73,6 +73,7 @@
     <Compile Include="Assets/Scripts/OrderUI.cs" />
     <Compile Include="Assets/Scripts/GameLoop.cs" />
     <Compile Include="Assets/Scripts/Player/Player.cs" />
+    <Compile Include="Assets/Scripts/StartScreen.cs" />
     <Compile Include="Assets/Scripts/ChooseItemFridge.cs" />
     <Compile Include="Assets/Scripts/OrderMaker.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/ClearCounter.cs" />
