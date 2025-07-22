@@ -31,37 +31,37 @@ public class CuttingCounter : BaseCounter
         }
     }
     public override IEnumerator InteractAlterCoroutine(Player player)
-{
-    if (HasKitchenObject())
     {
-        ChoppedIngredient ingredient = choopedIngredientSOList.choppedIngredients
-            .Find(obj => obj.ingredientType == GetKitchenObject().IngredientType);
-
-        if (ingredient != null)
+        if (HasKitchenObject())
         {
-            chopUI.Show();
+            ChoppedIngredient ingredient = choopedIngredientSOList.choppedIngredients
+                .Find(obj => obj.ingredientType == GetKitchenObject().IngredientType);
 
-            float duration = ingredient.choppingProgress;
-            float elapsed = 0f;
-
-            while (elapsed < duration)
+            if (ingredient != null)
             {
-                elapsed += Time.deltaTime;
-                chopUI.SetProgress(elapsed / duration);
-                yield return null;
+                chopUI.Show();
+
+                float duration = ingredient.choppingProgress;
+                float elapsed = 0f;
+
+                while (elapsed < duration)
+                {
+                    elapsed += Time.deltaTime;
+                    chopUI.SetProgress(elapsed / duration);
+                    yield return null;
+                }
+
+                chopUI.Hide();
+
+                GetKitchenObject().DestroySelf();
+                GameObject obj = Instantiate(ingredient.ingredientChopped);
+                kitchenObject = obj.GetComponent<KitchenObject>();
+                kitchenObject.SetKitchenObjectParent(this);
             }
-
-            chopUI.Hide();
-
-            GetKitchenObject().DestroySelf();
-            GameObject obj = Instantiate(ingredient.ingredientChopped);
-            kitchenObject = obj.GetComponent<KitchenObject>();
-            kitchenObject.SetKitchenObjectParent(this);
-        }
-        else
-        {
-            Debug.Log("ingredient is not choppable");
+            else
+            {
+                Debug.Log("ingredient is not choppable");
+            }
         }
     }
-}
 }

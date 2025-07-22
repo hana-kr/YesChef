@@ -364,12 +364,14 @@
 "Assets/Scripts/CountersScripts/ClearCounter.cs"
 "Assets/Scripts/CountersScripts/CuttingCounter.cs"
 "Assets/Scripts/CountersScripts/Fridge.cs"
+"Assets/Scripts/CountersScripts/StoveCounter.cs"
 "Assets/Scripts/CountersScripts/TrashCounter.cs"
 "Assets/Scripts/IKitchenObjectParent.cs"
 "Assets/Scripts/KitchenObject.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerInput.cs"
 "Assets/Scripts/SOScripts/ChoopedIngredientSOList.cs"
+"Assets/Scripts/SOScripts/FryingObjectSOList.cs"
 "Assets/Scripts/SOScripts/KitchenObjSoList.cs"
 -langversion:9.0
 /deterministic

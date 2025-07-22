@@ -67,12 +67,14 @@
     <Compile Include="Assets/PlayerInputSystem.cs" />
     <Compile Include="Assets/Scripts/SOScripts/ChoopedIngredientSOList.cs" />
     <Compile Include="Assets/Scripts/SOScripts/KitchenObjSoList.cs" />
+    <Compile Include="Assets/Scripts/CountersScripts/StoveCounter.cs" />
     <Compile Include="Assets/Scripts/Player/Player.cs" />
     <Compile Include="Assets/Scripts/ChooseItemFridge.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/ClearCounter.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/CuttingCounter.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/BaseCounter.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/Fridge.cs" />
+    <Compile Include="Assets/Scripts/SOScripts/FryingObjectSOList.cs" />
     <Compile Include="Assets/Scripts/ChopProgressBar.cs" />
     <Compile Include="Assets/Scripts/IKitchenObjectParent.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerInput.cs" />
