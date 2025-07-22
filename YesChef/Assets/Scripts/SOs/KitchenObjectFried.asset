@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29d0738483b04a988d070503275435d, type: 3}
   m_Name: KitchenObjectFried
   m_EditorClassIdentifier: 
-  FriedIngredients: []
+  FriedIngredients:
+  - ingredientType: 1
+    ingredientFried: {fileID: 4261389894353566058, guid: ba240c4a2232c49ab8c938bc036d8cac, type: 3}
+    fryingProgress: 6

@@ -3701,3 +3701,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: d547453e8da30c42783a9cc5736b3c04 -> fb6d15710dfd773c4b3e5f110f629a86
   custom:scripting/monoscript/fileName/ChopProgressBar.cs: 231b153a21cab90e5ff5b29fd1719d23 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
