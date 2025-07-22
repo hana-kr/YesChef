@@ -15,6 +15,10 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
     {
         return null;
     }
+    public virtual void InteractAlter(Player player)
+    {
+
+    }
      public Transform GetCounterTop()
     {
         return counterTop;

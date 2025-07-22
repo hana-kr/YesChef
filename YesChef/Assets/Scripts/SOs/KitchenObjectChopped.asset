@@ -15,3 +15,4 @@ MonoBehaviour:
   choppedIngredients:
   - ingredientType: 2
     ingredientChopped: {fileID: 5598724290484406144, guid: 2bb0fcd4c3e174e21aaaac6b7961e2d6, type: 3}
+    choppingProgress: 2

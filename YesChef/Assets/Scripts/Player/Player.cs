@@ -38,7 +38,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     }
     private void DetectCounter()
     {
-         float interactDistance = 2f;
+        float interactDistance = 2f;
         Vector3 rayOrigin = transform.position + Vector3.up * -0.2f;
         Debug.DrawRay(rayOrigin, lastInteractDir * interactDistance, Color.red);
         if (Physics.Raycast(rayOrigin, lastInteractDir, out RaycastHit hit, interactDistance))
@@ -51,6 +51,10 @@ public class Player : MonoBehaviour, IKitchenObjectParent
             {
                 Debug.Log("Hit something but no ClearCounter");
             }
+        }
+        else
+        {
+            kitchenCounter = null;
         }
     }
     void Move()
