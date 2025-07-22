@@ -82,6 +82,7 @@ public class DeliveryManager : MonoBehaviour
 
     private IEnumerator RespawnOrderAfterDelay()
     {
+        orderUI.ShowScore(orderIngredientScoreTotal);
         yield return new WaitForSeconds(respawnDelay);
         SpawnNewOrder();
     }

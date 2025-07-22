@@ -8,7 +8,8 @@ public class OrderUI : MonoBehaviour
 {
     [SerializeField] private Transform ingredientContainer;
     [SerializeField] private GameObject ingredientIconPrefab;
-    [SerializeField] private TMP_Text timerText;
+    [SerializeField] private TextMeshProUGUI timerText;
+    [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private bool hideTimerWhenNoOrder = true;
 
     private readonly List<GameObject> _spawnedRecipes = new();
@@ -24,6 +25,11 @@ public class OrderUI : MonoBehaviour
         RefreshRecipe(order);
         if (timerText != null && hideTimerWhenNoOrder)
             timerText.gameObject.SetActive(true);
+    }
+    public void ShowScore(int score)
+    {
+        scoreText.transform.parent.gameObject.SetActive(true);
+        scoreText.text = score.ToString();
     }
 
     public void UpdateOrder(List<RecipeSo> order)

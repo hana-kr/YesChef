@@ -87,6 +87,7 @@
     <Compile Include="Assets/Scripts/KitchenObject.cs" />
     <Compile Include="Assets/Scripts/DeliveryManager.cs" />
     <Compile Include="Assets/Scripts/CountersScripts/TrashCounter.cs" />
+    <Compile Include="Assets/disable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
