@@ -6,6 +6,7 @@ public class CuttingCounter : BaseCounter
 {
     [SerializeField] private KitchenObjSoList kitchenObjSo;
     [SerializeField] private ChoopedIngredientSOList choopedIngredientSOList;
+    [SerializeField] private ChopProgressBar chopUI;
 
     public override void Interact(Player player)
     {
@@ -29,23 +30,38 @@ public class CuttingCounter : BaseCounter
             }
         }
     }
-    public override void InteractAlter(Player player)
+    public override IEnumerator InteractAlterCoroutine(Player player)
+{
+    if (HasKitchenObject())
     {
-        if (HasKitchenObject())
-        {
+        ChoppedIngredient ingredient = choopedIngredientSOList.choppedIngredients
+            .Find(obj => obj.ingredientType == GetKitchenObject().IngredientType);
 
-            ChoppedIngredient ingredient = choopedIngredientSOList.choppedIngredients.Find(obj => obj.ingredientType == GetKitchenObject().IngredientType);
-            if (ingredient != null)
+        if (ingredient != null)
+        {
+            chopUI.Show();
+
+            float duration = ingredient.choppingProgress;
+            float elapsed = 0f;
+
+            while (elapsed < duration)
             {
-                GetKitchenObject().DestroySelf();
-                GameObject obj = Instantiate(ingredient.ingredientChopped);
-                kitchenObject = obj.GetComponent<KitchenObject>();
-                kitchenObject.SetKitchenObjectParent(this);
+                elapsed += Time.deltaTime;
+                chopUI.SetProgress(elapsed / duration);
+                yield return null;
             }
-            else
-            {
-                Debug.Log("ingredient is not choppable");
-            }
+
+            chopUI.Hide();
+
+            GetKitchenObject().DestroySelf();
+            GameObject obj = Instantiate(ingredient.ingredientChopped);
+            kitchenObject = obj.GetComponent<KitchenObject>();
+            kitchenObject.SetKitchenObjectParent(this);
+        }
+        else
+        {
+            Debug.Log("ingredient is not choppable");
         }
     }
+}
 }

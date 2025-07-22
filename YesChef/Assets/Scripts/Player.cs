@@ -27,7 +27,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     private void DetectInteractAlter(object sender, EventArgs e)
     {
          if (kitchenCounter != null)
-            kitchenCounter.InteractAlter(this);
+            StartCoroutine(kitchenCounter.InteractAlterCoroutine(this));
     }
 
 

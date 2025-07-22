@@ -11,9 +11,9 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
     {
 
     }
-    public virtual void InteractAlter(Player player)
+    public virtual IEnumerator InteractAlterCoroutine(Player player)
     {
-
+        return null;
     }
      public Transform GetCounterTop()
     {

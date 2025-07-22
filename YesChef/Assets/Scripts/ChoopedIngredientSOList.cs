@@ -14,4 +14,5 @@ public class ChoppedIngredient
 {
     public IngredientType ingredientType;
     public GameObject ingredientChopped;
+    public float choppingProgress;
 }

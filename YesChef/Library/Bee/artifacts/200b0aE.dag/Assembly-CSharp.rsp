@@ -361,6 +361,7 @@
 "Assets/Scripts/BaseCounter.cs"
 "Assets/Scripts/ChoopedIngredientSOList.cs"
 "Assets/Scripts/ChooseItemFridge.cs"
+"Assets/Scripts/ChopProgressBar.cs"
 "Assets/Scripts/ClearCounter.cs"
 "Assets/Scripts/CuttingCounter.cs"
 "Assets/Scripts/Fridge.cs"

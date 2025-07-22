@@ -10,18 +10,23 @@ public class Fridge : BaseCounter
 
     public override void Interact(Player player)
     {
-        menu.SetActive(true);
-        Debug.Log("fridge interaction");
-
-        ChooseItemFridge chooseItemFridge = menu.GetComponent<ChooseItemFridge>();
-        chooseItemFridge.OnChooseIngredient += HandleChooseIngredient;
-
-        void HandleChooseIngredient(object sender, IngredientChosenEventArgs e)
+        if (player.GetKitchenObject() == null)
         {
-            GetTheIngredient(player, e.ingredientType);
-            menu.SetActive(false);
-            chooseItemFridge.OnChooseIngredient -= HandleChooseIngredient;
+            menu.SetActive(true);
+            Debug.Log("fridge interaction");
+
+            ChooseItemFridge chooseItemFridge = menu.GetComponent<ChooseItemFridge>();
+            chooseItemFridge.OnChooseIngredient += HandleChooseIngredient;
+
+            void HandleChooseIngredient(object sender, IngredientChosenEventArgs e)
+            {
+                GetTheIngredient(player, e.ingredientType);
+                menu.SetActive(false);
+                chooseItemFridge.OnChooseIngredient -= HandleChooseIngredient;
+            }
         }
+        else
+            Debug.Log("player has somethig in hand");
     }
     public void GetTheIngredient(Player player, IngredientType ingredientType)
     {
